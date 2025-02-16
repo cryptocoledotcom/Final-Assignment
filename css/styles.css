@@ -23,15 +23,8 @@ h2{
     padding: 0;
     text-align: center;
 }
-/* General Header3 Styling */
-h3{
-    color: #ffffff;
-    font-size: 1.2em;
-    margin: 0;
-    padding: 0;
-} 
 /* Header Div Text Styling */
-div .welcome{
+#welcome{
   font-size: 15rem;
   text-align: center;
   height:20vh;
