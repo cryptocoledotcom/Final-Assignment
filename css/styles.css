@@ -1,0 +1,105 @@
+/* General Body Styling */
+body{
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*General Header1 Styling */
+h1{
+    color: #4802c9;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    border-radius: 20%;
+    text-decoration: none;
+    text-align: center;
+}
+/* General Header2 Styling */
+h2{
+    color: #ffffff;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* General Header3 Styling */
+h3{
+    color: #ffffff;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+} 
+/* Header Div Text Styling */
+div{
+  font-size: 15rem;
+  text-align: center;
+  height:20vh;
+  line-height: 20vh;
+  color: #fcedd8;
+  background: #000000;
+   font-family: 'Niconne', cursive;
+  font-weight: 700;
+  text-shadow: 5px 5px 0px #4802c9, 
+              10px 10px 0px #4802c9, 
+              15px 15px 0px #2bff00, 
+              20px 20px 0px #2bff00, 
+              25px 25px 0px #2bff00, 
+              30px 30px 0px #c11a2b, 
+              35px 35px 0px #c11a2b, 
+              40px 40px 0px #c11a2b, 
+              45px 45px 0px #c11a2b;
+}
+/* General Paragraph Styling */
+p{
+text-align: center;
+font-family: "Helvetica";
+font-size:1.0rem;
+color:#4802c9
+}
+/* General Anchor Styling */
+a{
+color: #d52e3f;
+font-family: 'Niconne', cursive;
+font-size: 1.2rem;
+text-align: center;
+}
+/* General Unordered List Styling */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    text-align: center;
+}
+/* Image Styling */
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+/* Gallery Styling */
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#gallery img{
+    width: 30%;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
