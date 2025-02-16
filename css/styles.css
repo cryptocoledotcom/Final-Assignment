@@ -47,7 +47,7 @@ p {
 text-align: center;
 font-family: "Helvetica";
 font-size:1.0rem;
-color:#4802c9
+color:#00ffff
 }
 /* General Anchor Styling */
 a {
@@ -64,6 +64,7 @@ ul {
     overflow: hidden;
     background-color: #000000;
     text-align: center;
+    color:#00ffff
 }
 /* Image Styling */
 img {
