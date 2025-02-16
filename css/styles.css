@@ -31,7 +31,7 @@ h3{
     padding: 0;
 } 
 /* Header Div Text Styling */
-.welcome{
+div .welcome{
   font-size: 15rem;
   text-align: center;
   height:20vh;
