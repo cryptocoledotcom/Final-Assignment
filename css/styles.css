@@ -7,7 +7,7 @@ body {
 }
 /*General Header1 Styling */
 h1 {
-    color: #4802c9;
+    color: #054090;
     font-size: 2em;
     text-decoration: none;
     text-align: center;
@@ -30,21 +30,21 @@ h2 {
     font-family: 'Niconne', cursive, sans-serif;
     font-weight: 700;
     text-shadow: 5px 5px 0px #5811fd, 
-                 10px 10px 0px #5811fd, 
-                 15px 15px 0px #5811fd, 
-                 20px 20px 0px #00ff2a, 
-                 25px 25px 0px #00ff2a, 
-                 30px 30px 0px #00ff2a, 
-                 35px 35px 0px #c11a2b, 
-                 40px 40px 0px #c11a2b, 
-                 45px 45px 0px #c11a2b;
+                 10px 10px 0px #f868e3, 
+                 15px 15px 0px #f868e3, 
+                 20px 20px 0px #f868e3, 
+                 25px 25px 0px #8d4bdd, 
+                 30px 30px 0px #8d4bdd, 
+                 35px 35px 0px #054090, 
+                 40px 40px 0px #054090, 
+                 45px 45px 0px #054090;
 }
 /* General Paragraph Styling */
 p {
 text-align: center;
 font-family: "Helvetica", sans-serif;
 font-size:1.0rem;
-color:#00ffff
+color:#8d4bdd
 }
 /* General Anchor Styling */
 a {
