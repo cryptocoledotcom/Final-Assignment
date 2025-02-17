@@ -48,7 +48,7 @@ color:#8d4bdd
 }
 /* General Anchor Styling */
 a {
-color: #d52e3f;
+color: #09ff00;
 font-family: 'Niconne', cursive, sans-serif;
 font-size: 1.2rem;
 text-align: center;
@@ -59,17 +59,16 @@ ul {
     margin: 0;
     padding: 0;
     text-align: center;
-    /* Removed background color from ul */
 }
-
-ul li { /* Style the list items */
+/* Style the list items */
+ul li { 
     padding: 10px;
     /* Add other styles as needed */
     color: #00ffff;
 }
-
-ul li a { /* Style the links within the list items */
-    color: #d52e3f;
+/* Style the links within the list items */
+ul li a { 
+    color: #09ff00;
 }
 /* Image Styling */
 img {
@@ -89,7 +88,7 @@ img {
     justify-content: center;
     gap: 10px;
 }
-
+/* Gallery Image Styling */
 #gallery img{
     display:grid 20px;
     width: 30%;
@@ -97,6 +96,7 @@ img {
     padding: 10px;
     border: 10px;
 }
+/* General Footer Styling */
 footer{
     text-align: center;
     background-color: #000000;
@@ -106,13 +106,28 @@ footer{
     bottom: 0;
     width: 100%;
 }
+/* skip-link styling */
 .skip-link {
     position: absolute;
-    focus: 0;
     top: -40px;
     left: 0;
     background-color: #000000;
     color: #09ff00;
     padding: 10px;
     z-index: 100;
+    transition: top 0.3s;
+}
+/* Example of focus pseudo-class */
+.skip-link:focus {
+    top: 0;
+}
+/* Example of hover pseudo-class */
+a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+/* Style every second list item */
+ul li:nth-child(2n) {
+    background-color: #000000;
+    color: #ff03d5;
 }
