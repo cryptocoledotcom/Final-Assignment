@@ -8,14 +8,14 @@ body {
 /*General Header1 Styling */
 h1 {
     color: #054090;
-    font-size: 2em;
+    font-size: 3em;
     text-decoration: none;
     text-align: center;
 }
 /* General Header2 Styling */
 h2 {
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 2.5em;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -43,14 +43,14 @@ h2 {
 p {
 text-align: center;
 font-family: "Helvetica", sans-serif;
-font-size:1.0rem;
+font-size:2.5rem;
 color:#8d4bdd
 }
 /* General Anchor Styling */
 a {
 color: #09ff00;
 font-family: 'Niconne', cursive, sans-serif;
-font-size: 1.2rem;
+font-size: 2rem;
 text-align: center;
 }
 /* General Unordered List Styling */
