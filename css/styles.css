@@ -7,11 +7,10 @@ body {
 }
 /*General Header1 Styling */
 h1 {
-    color: #054090;
+    color: #ffffff;
     font-size: 3em;
     text-decoration: none;
     text-align: center;
-    text-shadow: 2px 2px 2px #ffffff;
 }
 /* General Header2 Styling */
 h2 {
